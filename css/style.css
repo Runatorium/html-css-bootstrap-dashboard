@@ -1,4 +1,7 @@
-
+.ms_width_searchbar{
+    width: 100%;
+    margin-left: 25px;
+}
 .ms_maincontainer{
     height: calc(100vh - 54px);
 }
@@ -14,13 +17,30 @@
     padding: 0;
 }
 
+
+.ms_containerheight{
+    height: 100%;
+}
+
 .ms_topcontainer{
     height: 150px;
     width: 100%;
     padding: 0;
     margin: 0;
 }
-
 .ms_padding0{
     padding: 0;
+}
+
+.ms_bottomcontainer{
+    width: 100%;
+    height: calc(100% - 150px);
+    margin: 0;
+    padding: 10px;
+}
+
+.ms_internalcolumns{
+    height: 100%;
+    border-color: aqua; /*Debug*/
+    border-style: dotted; /*Debug*/
 }
