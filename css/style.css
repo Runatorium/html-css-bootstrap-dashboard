@@ -3,17 +3,24 @@
     height: calc(100vh - 54px);
 }
 
-.ms_sidebar_col{
-    height: 100%;
-    border-color: aqua; /*Debug*/
-    border-style: dotted; /*Debug*/
-} 
-
 .ms_row_height{
     height: 100%;
 }
 
-.col-11{
+.ms_debug{
     border-color: aqua; /*Debug*/
     border-style: dotted; /*Debug*/
+    height: 100%;
+    padding: 0;
+}
+
+.ms_topcontainer{
+    height: 150px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.ms_padding0{
+    padding: 0;
 }
