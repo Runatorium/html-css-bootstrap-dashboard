@@ -40,7 +40,17 @@
 }
 
 .ms_internalcolumns{
+    padding: 10px;
     height: 100%;
-    border-color: aqua; /*Debug*/
-    border-style: dotted; /*Debug*/
 }
+
+.card{
+    width: 100%;
+    height: 275px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px){
+
+}
+
