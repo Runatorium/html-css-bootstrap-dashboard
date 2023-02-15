@@ -23,7 +23,7 @@
 }
 
 .ms_topcontainer{
-    height: 150px;
+    height: 160px;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -43,14 +43,30 @@
     padding: 10px;
     height: 100%;
 }
-
+.ms_text_padding{
+    margin-top: 20px;
+}
 .card{
     width: 100%;
     height: 275px;
     margin-bottom: 10px;
 }
+.ms_fs-10{
+    font-size: 10px;
+}
 
-@media screen and (min-width: 992px){
 
+@media screen and (max-width: 992px){
+    .col-8{
+        width: 100%;
+    }
+
+    .col-4{
+        width: 100%; 
+    }
+
+    .ms_topcontainer{
+        height: fit-content;
+    }
 }
 
