@@ -2,6 +2,12 @@
     width: 100%;
     margin-left: 25px;
 }
+
+.ms_icons{
+    display:flex;
+    width: 15%;
+    justify-content: space-between;
+}
 .ms_maincontainer{
     height: calc(100vh - 54px);
 }
