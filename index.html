@@ -36,30 +36,6 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!--- DROPDOWN DA USARE LATER
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                >
-                    Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                </ul>
-                </li>
-            </ul>
-           DROPDOWN DA USARE LATER  --->
-
           <form class="d-flex ms_width_searchbar" role="search">
             <input
               class="form-control me-2"
@@ -71,9 +47,17 @@
             <i class="fa-solid fa-list"></i>
             <i class="fa-solid fa-circle-question"></i>
             <i class="fa-solid fa-ellipsis-vertical"></i>
-            <i class="fa-solid fa-bell text-warning
-
-            "></i>
+            <div class="dropstart">
+              <button class="btn dropstart-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bell text-warning"></i>
+              </button>
+              <ul class="dropdown-menu mt-5">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+            
             </div>
           </form>
         </div>
@@ -97,7 +81,7 @@
                         <div class="col-4 text-light ms_text_padding">
                         <h5>Studenti online negli ultimi 30 minuti</h5>
                         <p class="fs-2">125</p></div>
-                        <div class="col-2 text-light ms_text_padding"><p>Nuovo Studente<i class="fa-regular fa-square-plus"></i></p></div>
+                        <div class="col-2 text-light ms_text_padding"><p>Nuovo Studente<i class="fa-regular fa-square-plus fs-2"></i></p></div>
                     </div>
                     <div class="row ms_bottomcontainer bg-primary  overflow-y-scroll">
                         <div class="col-8 ms_internalcolumns">
