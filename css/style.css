@@ -105,5 +105,20 @@
     .ms_dateinizio{
         display: none;
     }
+
+    .ms_bottomcontainer{
+        height: calc(100% - 300px);
+    }
 }
 
+@media screen and (max-width: 992px){
+    .ms_sidebardiv{
+        min-width: 40px;
+    }
+
+    .ms_sidebarlist span{
+        display: none;
+    }
+
+
+}
