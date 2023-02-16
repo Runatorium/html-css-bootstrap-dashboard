@@ -31,8 +31,9 @@
 .ms_sidebarlist i{
     margin-right: 7px;
 }
-.ms_bottomsidebarcontainer{
-
+.ms_bottomsidebar{
+    height: 150px;
+    width: 100%;
 }
 .ms_sidebardiv{
     min-width: 160px;
@@ -64,11 +65,23 @@
 .ms_text_padding{
     margin-top: 20px;
 }
+
+/* Cards*/
 .card{
     width: 100%;
-    height: 275px;
+    height: max-content;
     margin-bottom: 10px;
 }
+ tr i{
+    padding: 5px;
+    border-radius: 4px;
+ }
+ th i{
+    border-radius: 50%;
+    background-color: rgb(255, 77, 0);
+    margin-right: 5px;
+ }
+/* Cards*/
 .ms_fs-10{
     font-size: 10px;
 }

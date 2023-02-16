@@ -67,7 +67,7 @@
   <body>
     <main>
       <div class="container-fluid ms_maincontainer d-flex flex-row">
-            <div class="ms_sidebardiv d-flex ms_debug bg-dark flex-column">
+            <div class="ms_sidebardiv d-flex ms_debug bg-dark flex-column justify-content-between">
               <div class="ms_topsidebarcontainer text-light">
                 <ul class="ms_sidebarlist">
                   <li><p><i class="fa-solid fa-house"></i><span>Home</span></p></li>
@@ -75,7 +75,11 @@
                   <li><p><i class="fa-solid fa-signal"></i><span>Signal</span></p></li>
                 </ul>
               </div>
-              <div  class="ms_bottomsidebarcontainer"></div>
+              <div  class="ms_bottomsidebar text-light">
+                <ul class="ms_sidebarlist">
+                  <li><p><i class="fa-solid fa-gear"></i><span>Admin</span></p></li>
+                </ul>
+              </div>
             </div>
             <div class="ms_mainbodydiv d-flex ms_debug">
                 <div class="container-fluid ms_containerheight ms_padding0">
@@ -96,7 +100,76 @@
                         <div class="col-8 ms_internalcolumns">
                             <div class="card">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title border-bottom bg-body-secondary">Prossima classi</h5>
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col ms_width">Nome</th>
+                                    <th scope="col">Data inizio</th>
+                                    <th scope="col">ROI</th>
+                                    <th scope="col">Stato</th>
+                                    <th scope="col">Azioni</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row"><i class="fa-solid fa-code"></i>Classe 75</th>
+                                    <td>15 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><span class="badge bg-secondary ms_fs-10 bg-success">Done</span></td>
+                                    <td><i class="fa-solid fa-pencil border bg-light"></i><i class="fa-solid fa-trash border bg-light"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"> <i class="fa-solid fa-code"></i> Classe 76</th>
+                                    <td>16 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><span class="badge bg-secondary ms_fs-10 bg-success">Done</span></td>
+                                    <td><i class="fa-solid fa-pencil border bg-light"></i><i class="fa-solid fa-trash border bg-light"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"> <i class="fa-solid fa-code"></i> Classe 77</th>
+                                    <td>17 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><span class="badge bg-secondary ms_fs-10 bg-warning">Process</span></td>
+                                    <td><i class="fa-solid fa-pencil border bg-light"></i><i class="fa-solid fa-trash border bg-light"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"> <i class="fa-solid fa-code"></i> Classe 78</th>
+                                    <td>18 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><span class="badge bg-secondary ms_fs-10 bg-success">Done</span></td>
+                                    <td><i class="fa-solid fa-pencil border bg-light"></i><i class="fa-solid fa-trash border bg-light"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"> <i class="fa-solid fa-code"></i> Classe 79</th>
+                                    <td>19 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><span class="badge bg-secondary ms_fs-10 bg-danger">Failed</span></td>
+                                    <td><i class="fa-solid fa-pencil border bg-light"></i><i class="fa-solid fa-trash border bg-light"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"> <i class="fa-solid fa-code"></i> Classe 80</th>
+                                    <td>20 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><span class="badge bg-secondary ms_fs-10 bg-success">Done</span></td>
+                                    <td><i class="fa-solid fa-pencil border bg-light"></i><i class="fa-solid fa-trash border bg-light"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"> <i class="fa-solid fa-code"></i> Classe 81</th>
+                                    <td>21 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><span class="badge bg-secondary ms_fs-10 bg-danger">Failed</span></td>
+                                    <td><i class="fa-solid fa-pencil border bg-light"></i><i class="fa-solid fa-trash border bg-light"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"> <i class="fa-solid fa-code"></i> Classe 82</th>
+                                    <td>22 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><span class="badge bg-secondary ms_fs-10 bg-success">Done</span></td>
+                                    <td><i class="fa-solid fa-pencil border bg-light"></i><i class="fa-solid fa-trash border bg-light"></i></td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </div>
                           </div> 
                           <div class="card">
