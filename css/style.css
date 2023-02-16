@@ -60,7 +60,6 @@
 
 .ms_internalcolumns{
     padding: 10px;
-    height: 100%;
 }
 .ms_text_padding{
     margin-top: 20px;
@@ -81,6 +80,10 @@
     background-color: rgb(255, 77, 0);
     margin-right: 5px;
  }
+ .ms_img{
+    width: 100%;
+    height: 100%;
+ }
 /* Cards*/
 .ms_fs-10{
     font-size: 10px;
@@ -98,6 +101,9 @@
 
     .ms_topcontainer{
         height: fit-content;
+    }
+    .ms_dateinizio{
+        display: none;
     }
 }
 
