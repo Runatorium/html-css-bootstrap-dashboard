@@ -10,24 +10,16 @@
 }
 .ms_maincontainer{
     height: calc(100vh - 54px);
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
 }
-
-.ms_row_height{
-    height: 100%;
+.ms_mainbodydiv{
+    width: 100%;
 }
-
-.ms_debug{
-    border-color: aqua; /*Debug*/
-    border-style: dotted; /*Debug*/
-    height: 100%;
-    padding: 0;
+.ms_sidebardiv{
+    min-width: 160px;
+    height: calc(100vh - 54px);
 }
-
-
-.ms_containerheight{
-    height: 100%;
-}
-
 .ms_topcontainer{
     height: 160px;
     width: 100%;
@@ -40,7 +32,7 @@
 
 .ms_bottomcontainer{
     width: 100%;
-    height: calc(100% - 150px);
+    height: calc(100% - 160px);
     margin: 0;
     padding: 10px;
 }
