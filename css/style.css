@@ -126,9 +126,9 @@
     .ms_topcontainer .col-4{ 
         order: 3;
     }
-}
-
-@media screen and (max-width: 992px){
+    .offcanvas{
+        --bs-offcanvas-width: 60%;
+    }
     .ms_sidebardiv{
         min-width: 40px;
     }
@@ -136,6 +136,11 @@
     .ms_sidebarlist span{
         display: none;
     }
+}
 
+@media screen and (max-width: 576px){
+    .offcanvas{
+        --bs-offcanvas-width: 100%;
+    }
 
 }
