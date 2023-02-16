@@ -16,10 +16,30 @@
 .ms_mainbodydiv{
     width: 100%;
 }
+
+/* Sidebar*/
+.ms_topsidebarcontainer{
+    height: 150px;
+    width: 100%;
+    list-style: none;
+}
+.ms_sidebarlist{
+    margin-top: 20px;
+    padding: 10px;
+    list-style: none;
+}
+.ms_sidebarlist i{
+    margin-right: 7px;
+}
+.ms_bottomsidebarcontainer{
+
+}
 .ms_sidebardiv{
     min-width: 160px;
     height: calc(100vh - 54px);
 }
+
+/* Sidebar*/
 .ms_topcontainer{
     height: 160px;
     width: 100%;
